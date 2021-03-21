@@ -7,6 +7,6 @@ const BookSchema = mongoose.Schema({
     summary: String
 }, {
     timestamps: true
-}, { versionKey: '_somethingElse' });
+});
 
 module.exports = mongoose.model('Book', BookSchema);
