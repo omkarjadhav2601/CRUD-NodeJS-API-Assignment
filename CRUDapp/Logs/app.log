@@ -1,0 +1,133 @@
+29/3/2021, 6:55:53 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 6:55:53 PM | INFO | app.log | RESPONSE: Returning all the records  
+29/3/2021, 6:56:36 PM | INFO | app.log | REQUEST: POST request for ID : 6 - http://localhost:4000/api/books/ 
+29/3/2021, 6:56:36 PM | INFO | app.log | RESPONSE: Posted record with ID : 6 | Name : Falcn6 | Image : https://bit.ly/2Pzczlb | Summary : 666 
+29/3/2021, 6:57:03 PM | INFO | app.log | REQUEST : PUT request for ID : 6 - http://localhost:4000/api/books/6 
+29/3/2021, 6:57:03 PM | ERROR | app.log | Error updating book with id 6 
+29/3/2021, 6:57:18 PM | INFO | app.log | REQUEST : PUT request for ID : 6 - http://localhost:4000/api/books/6 
+29/3/2021, 6:57:19 PM | INFO | app.log | RESPONSE : Record updated with ID : 6 | Updated Values - ID : 6 | Name : Falcn7 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 6:57:33 PM | INFO | app.log | REQUEST : PUT request for ID : 6 - http://localhost:4000/api/books/6 
+29/3/2021, 6:57:33 PM | ERROR | app.log | Error updating book with id 6 
+29/3/2021, 6:57:59 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 8 - http://localhost:4000/api/books/7 
+29/3/2021, 6:57:59 PM | ERROR | app.log | RESPONSE : Book not found with id : 8 
+29/3/2021, 6:58:12 PM | INFO | app.log | REQUEST: POST request for ID : 7 - http://localhost:4000/api/books/ 
+29/3/2021, 6:58:12 PM | ERROR | app.log | RESPONSE : Something went wrong while creating new book. 
+29/3/2021, 7:04:29 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 7:04:29 PM | INFO | app.log | RESPONSE: Returning all the records  
+29/3/2021, 7:04:44 PM | INFO | app.log | REQUEST: POST request for ID : 7 - http://localhost:4000/api/books/ 
+29/3/2021, 7:04:44 PM | ERROR | app.log | RESPONSE : Something went wrong while creating new book. 
+29/3/2021, 7:11:25 PM | INFO | app.log | REQUEST: POST request for ID : 8 - http://localhost:4000/api/books/ 
+29/3/2021, 7:11:25 PM | ERROR | app.log | RESPONSE : Book already present with the same ID: 
+29/3/2021, 7:12:07 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:12:07 PM | INFO | app.log | RESPONSE: Posted record with ID : 9 | Name : Falcn7 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 7:12:46 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:13:35 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:13:35 PM | ERROR | app.log | RESPONSE : Book already present with the same ID: 
+29/3/2021, 7:14:49 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:14:49 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+29/3/2021, 7:16:32 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:16:32 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+29/3/2021, 7:16:58 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:17:18 PM | INFO | app.log | REQUEST: POST request for ID : 9 - http://localhost:4000/api/books/ 
+29/3/2021, 7:17:18 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+29/3/2021, 7:19:01 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 7:19:01 PM | INFO | app.log | RESPONSE: Returning all the records {
+  _id: 5,
+  name: 'Avengers: Endgame5',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-23T11:45:09.784Z,
+  updatedAt: 2021-03-23T11:45:09.784Z,
+  __v: 0
+},{
+  _id: 2,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-28T22:50:39.506Z,
+  updatedAt: 2021-03-28T22:50:39.506Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Falcon3',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:04.635Z,
+  updatedAt: 2021-03-28T22:52:04.635Z,
+  __v: 0
+},{
+  _id: 7,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:26.321Z,
+  updatedAt: 2021-03-28T22:52:26.321Z,
+  __v: 0
+},{
+  _id: 10,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:55:05.971Z,
+  updatedAt: 2021-03-28T22:55:05.971Z,
+  __v: 0
+},{
+  _id: 99,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '555',
+  createdAt: 2021-03-29T11:18:32.721Z,
+  updatedAt: 2021-03-29T11:18:32.721Z,
+  __v: 0
+},{
+  _id: 11,
+  name: 'Falcn',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '111',
+  createdAt: 2021-03-29T13:17:37.496Z,
+  updatedAt: 2021-03-29T13:18:05.251Z,
+  __v: 0
+},{
+  _id: 6,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:26:36.559Z,
+  updatedAt: 2021-03-29T13:27:18.930Z,
+  __v: 0
+},{
+  _id: 8,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:41:25.218Z,
+  updatedAt: 2021-03-29T13:41:25.218Z,
+  __v: 0
+},{
+  _id: 9,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:42:07.800Z,
+  updatedAt: 2021-03-29T13:42:07.800Z,
+  __v: 0
+} 
+29/3/2021, 7:20:44 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 5 - http://localhost:4000/api/books/9 
+29/3/2021, 7:20:44 PM | INFO | app.log | RESPONSE : Found Book with id : 5 - {
+  _id: 5,
+  name: 'Avengers: Endgame5',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-23T11:45:09.784Z,
+  updatedAt: 2021-03-23T11:45:09.784Z,
+  __v: 0
+} 
+29/3/2021, 7:22:13 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 5 - http://localhost:4000/api/books/9 
+29/3/2021, 7:22:13 PM | INFO | app.log | RESPONSE : Found Book with id : 5 - function(options) {
+  return this.$toObject(options);
+} 
+29/3/2021, 7:22:31 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 5 - http://localhost:4000/api/books/9 
+29/3/2021, 7:22:31 PM | INFO | app.log | RESPONSE : Found Book with id : 5 - [object Object] 
+29/3/2021, 7:24:10 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 7:25:51 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 7:25:51 PM | INFO | app.log | RESPONSE: Returning all the records { ID : undefined | Name : undefined | Image : undefined | Summary : undefined } 
