@@ -131,3 +131,335 @@
 29/3/2021, 7:24:10 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
 29/3/2021, 7:25:51 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
 29/3/2021, 7:25:51 PM | INFO | app.log | RESPONSE: Returning all the records { ID : undefined | Name : undefined | Image : undefined | Summary : undefined } 
+29/3/2021, 9:11:25 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 9:11:25 PM | INFO | app.log | RESPONSE: Returning all the records {
+  _id: 5,
+  name: 'Avengers: Endgame5',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-23T11:45:09.784Z,
+  updatedAt: 2021-03-23T11:45:09.784Z,
+  __v: 0
+},{
+  _id: 2,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-28T22:50:39.506Z,
+  updatedAt: 2021-03-28T22:50:39.506Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Falcon3',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:04.635Z,
+  updatedAt: 2021-03-28T22:52:04.635Z,
+  __v: 0
+},{
+  _id: 7,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:26.321Z,
+  updatedAt: 2021-03-28T22:52:26.321Z,
+  __v: 0
+},{
+  _id: 10,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:55:05.971Z,
+  updatedAt: 2021-03-28T22:55:05.971Z,
+  __v: 0
+},{
+  _id: 99,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '555',
+  createdAt: 2021-03-29T11:18:32.721Z,
+  updatedAt: 2021-03-29T11:18:32.721Z,
+  __v: 0
+},{
+  _id: 11,
+  name: 'Falcn',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '111',
+  createdAt: 2021-03-29T13:17:37.496Z,
+  updatedAt: 2021-03-29T13:18:05.251Z,
+  __v: 0
+},{
+  _id: 6,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:26:36.559Z,
+  updatedAt: 2021-03-29T13:27:18.930Z,
+  __v: 0
+},{
+  _id: 8,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:41:25.218Z,
+  updatedAt: 2021-03-29T13:41:25.218Z,
+  __v: 0
+},{
+  _id: 9,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:42:07.800Z,
+  updatedAt: 2021-03-29T13:42:07.800Z,
+  __v: 0
+} 
+29/3/2021, 9:11:39 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 7 - http://localhost:4000/api/books/9 
+29/3/2021, 9:11:39 PM | INFO | app.log | RESPONSE : Found Book with id : 7 - {
+  _id: 7,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:26.321Z,
+  updatedAt: 2021-03-28T22:52:26.321Z,
+  __v: 0
+} 
+29/3/2021, 9:11:52 PM | INFO | app.log | REQUEST : DELETE request for ID : 7 - http://localhost:4000/api/books/7 
+29/3/2021, 9:11:52 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 7 
+29/3/2021, 9:12:10 PM | INFO | app.log | REQUEST : DELETE request for ID : 9 - http://localhost:4000/api/books/9 
+29/3/2021, 9:12:10 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 9 
+29/3/2021, 9:12:21 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:12:21 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+29/3/2021, 9:17:22 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 98 - http://localhost:4000/api/books/9 
+29/3/2021, 9:17:22 PM | ERROR | app.log | RESPONSE : Book not found with id : 98 
+29/3/2021, 9:17:22 PM | ERROR | app.log | Error getting book with id 98  -- Message: Cannot set headers after they are sent to the client 
+29/3/2021, 9:19:54 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 98 - http://localhost:4000/api/books/9 
+29/3/2021, 9:19:54 PM | ERROR | app.log | RESPONSE : Book not found with id : 98 
+29/3/2021, 9:19:54 PM | ERROR | app.log | Error getting book with id 98  -- Message: Cannot set headers after they are sent to the client 
+29/3/2021, 9:20:27 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 98 - http://localhost:4000/api/books/9 
+29/3/2021, 9:20:27 PM | ERROR | app.log | RESPONSE : Book not found with id : 98 
+29/3/2021, 9:21:22 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 98 - http://localhost:4000/api/books/9 
+29/3/2021, 9:21:22 PM | ERROR | app.log | RESPONSE : Book not found with id : 98 
+29/3/2021, 9:22:15 PM | INFO | app.log | REQUEST: POST request for ID : 98 - http://localhost:4000/api/books/ 
+29/3/2021, 9:22:15 PM | INFO | app.log | RESPONSE: Posted record with ID : 98 | Name : Falcn0999999 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 9:23:10 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+29/3/2021, 9:23:10 PM | INFO | app.log | RESPONSE: Posted record with ID : 1 | Name : Falcn0999999 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 9:23:18 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+29/3/2021, 9:23:18 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+29/3/2021, 9:23:37 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 9:23:38 PM | INFO | app.log | RESPONSE: Returning all the records {
+  _id: 5,
+  name: 'Avengers: Endgame5',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-23T11:45:09.784Z,
+  updatedAt: 2021-03-23T11:45:09.784Z,
+  __v: 0
+},{
+  _id: 2,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-28T22:50:39.506Z,
+  updatedAt: 2021-03-28T22:50:39.506Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Falcon3',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:04.635Z,
+  updatedAt: 2021-03-28T22:52:04.635Z,
+  __v: 0
+},{
+  _id: 10,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:55:05.971Z,
+  updatedAt: 2021-03-28T22:55:05.971Z,
+  __v: 0
+},{
+  _id: 99,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '555',
+  createdAt: 2021-03-29T11:18:32.721Z,
+  updatedAt: 2021-03-29T11:18:32.721Z,
+  __v: 0
+},{
+  _id: 11,
+  name: 'Falcn',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '111',
+  createdAt: 2021-03-29T13:17:37.496Z,
+  updatedAt: 2021-03-29T13:18:05.251Z,
+  __v: 0
+},{
+  _id: 6,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:26:36.559Z,
+  updatedAt: 2021-03-29T13:27:18.930Z,
+  __v: 0
+},{
+  _id: 8,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:41:25.218Z,
+  updatedAt: 2021-03-29T13:41:25.218Z,
+  __v: 0
+},{
+  _id: 98,
+  name: 'Falcn0999999',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T15:52:15.449Z,
+  updatedAt: 2021-03-29T15:52:15.449Z,
+  __v: 0
+},{
+  _id: 1,
+  name: 'Falcn0999999',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T15:53:10.019Z,
+  updatedAt: 2021-03-29T15:53:10.019Z,
+  __v: 0
+} 
+29/3/2021, 9:24:03 PM | INFO | app.log | REQUEST : PUT request for ID : 98 - http://localhost:4000/api/books/98 
+29/3/2021, 9:24:03 PM | ERROR | app.log | Error updating book with id 98 
+29/3/2021, 9:25:55 PM | INFO | app.log | REQUEST : PUT request for ID : 98 - http://localhost:4000/api/books/98 
+29/3/2021, 9:25:56 PM | ERROR | app.log | RESPONSE : Book not present with ID : 98 
+29/3/2021, 9:26:30 PM | INFO | app.log | REQUEST : PUT request for ID : 98 - http://localhost:4000/api/books/98 
+29/3/2021, 9:26:30 PM | ERROR | app.log | RESPONSE : Book not present with ID : 98 
+29/3/2021, 9:26:39 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:26:39 PM | ERROR | app.log | RESPONSE : Book not present with ID : 2 
+29/3/2021, 9:28:42 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:28:43 PM | ERROR | app.log | RESPONSE : Book not present with ID : 2 
+29/3/2021, 9:31:18 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:31:18 PM | ERROR | app.log | RESPONSE : Something went wrong while updating ID : 2 
+29/3/2021, 9:40:40 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:40:40 PM | INFO | app.log | RESPONSE : Record updated with ID : 2 | Updated Values - ID : 2 | Name : Falcn0999999 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 9:40:47 PM | INFO | app.log | REQUEST : PUT request for ID : 55 - http://localhost:4000/api/books/55 
+29/3/2021, 9:40:47 PM | ERROR | app.log | RESPONSE : Book not found with id : 55 
+29/3/2021, 9:42:06 PM | INFO | app.log | REQUEST : PUT request for ID : 55 - http://localhost:4000/api/books/55 
+29/3/2021, 9:42:06 PM | ERROR | app.log | RESPONSE : Book not found with id : 55 
+29/3/2021, 9:42:48 PM | INFO | app.log | REQUEST : DELETE request for ID : 55 - http://localhost:4000/api/books/55 
+29/3/2021, 9:42:48 PM | ERROR | app.log | RESPONSE : Book not found with id : 55 
+29/3/2021, 9:43:18 PM | INFO | app.log | REQUEST : DELETE request for ID : 55 - http://localhost:4000/api/books/55 
+29/3/2021, 9:43:18 PM | ERROR | app.log | RESPONSE : Book not fosund with id : 55 
+29/3/2021, 9:43:52 PM | INFO | app.log | REQUEST : DELETE request for ID : 55 - http://localhost:4000/api/books/55 
+29/3/2021, 9:43:52 PM | ERROR | app.log | RESPONSE : Book not found with id : 55 
+29/3/2021, 9:44:54 PM | INFO | app.log | REQUEST : DELETE request for ID : 55 - http://localhost:4000/api/books/55 
+29/3/2021, 9:44:54 PM | ERROR | app.log | RESPONSE : Book not found with id : 55 
+29/3/2021, 9:45:23 PM | INFO | app.log | REQUEST : DELETE request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:45:23 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 2 
+29/3/2021, 9:45:59 PM | INFO | app.log | REQUEST : DELETE request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:45:59 PM | ERROR | app.log | RESPONSE : Book not found with id : 2 
+29/3/2021, 9:46:07 PM | INFO | app.log | REQUEST : DELETE request for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:46:07 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 1 
+29/3/2021, 9:46:22 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:46:22 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 
+29/3/2021, 9:46:29 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 2 - http://localhost:4000/api/books/1 
+29/3/2021, 9:46:29 PM | ERROR | app.log | RESPONSE : Book not found with id : 2 
+29/3/2021, 9:46:34 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 5 - http://localhost:4000/api/books/1 
+29/3/2021, 9:46:34 PM | INFO | app.log | RESPONSE : Found Book with id : 5 - {
+  _id: 5,
+  name: 'Avengers: Endgame5',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-23T11:45:09.784Z,
+  updatedAt: 2021-03-23T11:45:09.784Z,
+  __v: 0
+} 
+29/3/2021, 9:47:05 PM | INFO | app.log | REQUEST: GET request for all IDs - http://localhost:4000/api/books/ 
+29/3/2021, 9:47:05 PM | INFO | app.log | RESPONSE: Returning all the records {
+  _id: 5,
+  name: 'Avengers: Endgame5',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '55555',
+  createdAt: 2021-03-23T11:45:09.784Z,
+  updatedAt: 2021-03-23T11:45:09.784Z,
+  __v: 0
+},{
+  _id: 4,
+  name: 'Falcon3',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:52:04.635Z,
+  updatedAt: 2021-03-28T22:52:04.635Z,
+  __v: 0
+},{
+  _id: 10,
+  name: 'Falcon7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '5555533',
+  createdAt: 2021-03-28T22:55:05.971Z,
+  updatedAt: 2021-03-28T22:55:05.971Z,
+  __v: 0
+},{
+  _id: 99,
+  name: 'Falcon',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '555',
+  createdAt: 2021-03-29T11:18:32.721Z,
+  updatedAt: 2021-03-29T11:18:32.721Z,
+  __v: 0
+},{
+  _id: 11,
+  name: 'Falcn',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '111',
+  createdAt: 2021-03-29T13:17:37.496Z,
+  updatedAt: 2021-03-29T13:18:05.251Z,
+  __v: 0
+},{
+  _id: 6,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:26:36.559Z,
+  updatedAt: 2021-03-29T13:27:18.930Z,
+  __v: 0
+},{
+  _id: 8,
+  name: 'Falcn7',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T13:41:25.218Z,
+  updatedAt: 2021-03-29T13:41:25.218Z,
+  __v: 0
+},{
+  _id: 98,
+  name: 'Falcn0999999',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T15:52:15.449Z,
+  updatedAt: 2021-03-29T15:52:15.449Z,
+  __v: 0
+} 
+29/3/2021, 9:48:15 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+29/3/2021, 9:48:15 PM | INFO | app.log | RESPONSE: Posted record with ID : 1 | Name : Falcn0999999 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 9:48:23 PM | INFO | app.log | REQUEST: POST request for ID : 1 - http://localhost:4000/api/books/ 
+29/3/2021, 9:48:23 PM | ERROR | app.log | RESPONSE : Book already present with the same ID 
+29/3/2021, 9:49:00 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:49:00 PM | INFO | app.log | RESPONSE : Found Book with id : 1 - {
+  _id: 1,
+  name: 'Falcn0999999',
+  img: 'https://bit.ly/2Pzczlb',
+  summary: '777',
+  createdAt: 2021-03-29T16:18:15.205Z,
+  updatedAt: 2021-03-29T16:18:15.205Z,
+  __v: 0
+} 
+29/3/2021, 9:49:06 PM | INFO | app.log | REQUEST : GET Request recieved for ID : 2 - http://localhost:4000/api/books/1 
+29/3/2021, 9:49:06 PM | ERROR | app.log | RESPONSE : Book not found with id : 2 
+29/3/2021, 9:49:30 PM | INFO | app.log | REQUEST : PUT request for ID : 2 - http://localhost:4000/api/books/2 
+29/3/2021, 9:49:30 PM | ERROR | app.log | RESPONSE : Book not found with id : 2 
+29/3/2021, 9:49:40 PM | INFO | app.log | REQUEST : PUT request for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:49:40 PM | INFO | app.log | RESPONSE : Record updated with ID : 1 | Updated Values - ID : 1 | Name : Falcn0991111111111111111119999 | Image : https://bit.ly/2Pzczlb | Summary : 777 
+29/3/2021, 9:50:54 PM | INFO | app.log | REQUEST : DELETE request for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:50:54 PM | INFO | app.log | RESPONSE : Book Deleted successfully with ID : 1 
+29/3/2021, 9:50:56 PM | INFO | app.log | REQUEST : DELETE request for ID : 1 - http://localhost:4000/api/books/1 
+29/3/2021, 9:50:56 PM | ERROR | app.log | RESPONSE : Book not found with id : 1 

@@ -21,23 +21,23 @@ class LoggerService {
         message = this.log_data ? message + `log_data:${JSON.stringify(this.log_data)} | ` : message
         return message
       })
-   });
-   this.logger = logger
-}
-setLogData(log_data) {
-  this.log_data = log_data
-}
-async info(message) {
-  this.logger.log('info', message);
-}
+    });
+    this.logger = logger
+  }
+  setLogData(log_data) {
+    this.log_data = log_data
+  }
+  async info(message) {
+    this.logger.log('info', message);
+  }
 
-async debug(message) {
-  this.logger.log('debug', message);
-}
+  async debug(message) {
+    this.logger.log('debug', message);
+  }
 
-async error(message) {
-  this.logger.log('error', message);
-}
+  async error(message) {
+    this.logger.log('error', message);
+  }
 
 }
 module.exports = LoggerService

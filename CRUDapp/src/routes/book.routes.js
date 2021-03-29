@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 app.use(express.urlencoded({
-  extended: false
+    extended: false
 }))
 const router = express.Router()
 const bookController = require('../controllers/book.controllers');

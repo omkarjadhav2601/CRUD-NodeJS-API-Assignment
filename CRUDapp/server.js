@@ -12,7 +12,7 @@ app.use(express.json())
 
 // define a simple route
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to CRUD application."});
+  res.json({ "message": "Welcome to CRUD application." });
 });
 
 // Configuring the database
@@ -21,7 +21,8 @@ mongoose.set('useFindAndModify', false);
 mongoose.Promise = global.Promise;
 // Connecting to the database
 mongoose.connect(mongoConnectionString, {
-useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
+  useNewUrlParser: true, useUnifiedTopology: true
+}).then(() => {
   console.log("Successfully connected to the database");
 }).catch(err => {
   console.log('Could not connect to the database.', err);
