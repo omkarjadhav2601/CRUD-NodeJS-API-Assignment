@@ -4,7 +4,7 @@
   "description": "This is an app for creating restful crud api in node js, express and mongodb.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon start"
   },
   "keywords": [
     "node",
